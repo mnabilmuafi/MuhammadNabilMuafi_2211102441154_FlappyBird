@@ -5,7 +5,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Flappybird extends Actor
+public class superbird extends Actor
 {
     private double g = 1; 
     private int y = 300;
@@ -13,7 +13,7 @@ public class Flappybird extends Actor
     private boolean isalive = true;
     private boolean isacross = false;
     private boolean hasaddscore = false; //Nilai awal artinya belum ditambah terlalu banyak
-    public Flappybird(){
+    public superbird(){
         GreenfootImage image = getImage();
         image.scale(50, 40);
     }
